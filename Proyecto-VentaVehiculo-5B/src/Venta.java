@@ -8,6 +8,25 @@ public class Venta {
         this.vehiculo =  vehiculo;
         this.cliente =  cliente;
     }
+    public int getCantidad(){
+        return this.cantidad;
+    } 
+    public Vehiculo getVehiculo(){
+        return this.vehiculo;
+    } 
+    public Cliente getCliente(){
+        return this.cliente;
+    }    
+    public void setCantidad(int cantidad){
+        this.cantidad = cantidad;
+    } 
+    public void setVehiculo(Vehiculo vehiculo){
+        this.vehiculo = vehiculo;
+    } 
+    public void setCliente(Cliente cliente){
+        this.cliente = cliente;
+    } 
+
     @Override 
     public String toString(){
         String cadena;
@@ -16,5 +35,4 @@ public class Venta {
         "Cliente: " + this.cliente + "\n";
         return cadena;
     }
-
 }

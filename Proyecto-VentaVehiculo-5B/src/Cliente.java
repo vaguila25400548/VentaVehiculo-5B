@@ -8,6 +8,26 @@ public class Cliente {
         this.rfc =  rfc;
         this.email =  email;
     }
+    
+    public String getRs(){
+        return this.rs;
+    } 
+    public String getRFC(){
+        return this.rfc;
+    } 
+    public String getEmail(){
+        return this.email;
+    }    
+    public void setRs(String rs){
+        this.rs = rs;
+    } 
+    public void setRFC(String rfc){
+        this.rfc = rfc;
+    } 
+    public void setEmail(String email){
+        this.email = email;
+    } 
+    
     @Override 
     public String toString(){
         String cadena;
